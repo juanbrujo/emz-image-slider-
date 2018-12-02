@@ -1,8 +1,13 @@
 import Vue from 'vue'
-import App from './App.vue'
 
 Vue.config.productionTip = false
 
+
+
+Vue.config.productionTip = false
+
+import ImageSlider from './components/ImageSlider.vue';
+
 new Vue({
-  render: h => h(App),
+  render: h => h(ImageSlider),
 }).$mount('#app')
