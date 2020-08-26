@@ -1,12 +1,7 @@
 import Vue from 'vue'
+import ImageSlider from './components/ImageSlider.vue'
 
 Vue.config.productionTip = false
-
-
-
-Vue.config.productionTip = false
-
-import ImageSlider from './components/ImageSlider.vue';
 
 new Vue({
   render: h => h(ImageSlider),

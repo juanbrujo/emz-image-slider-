@@ -1,5 +1,5 @@
 module.exports = {
-	devServer: {
-		clientLogLevel: 'info'
-	}
-};
+  devServer: {
+    clientLogLevel: 'info'
+  }
+}
